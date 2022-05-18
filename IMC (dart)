@@ -1,0 +1,9 @@
+void main() {
+  print('----------CALCULO IMC----------');
+
+ int peso = 90;
+ double altura = 1.88;
+ double imc = (peso/(altura*altura));
+
+  print('Seu imc é: $imc');
+}
